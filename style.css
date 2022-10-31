@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?weather');
+    font-size: 107%;
+  }
+  .card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    max-width: 420px;
+    border-radius: 14px;
+    width: 100%;
+    margin: 1em;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  .search-bar {
+    border: none;
+    outline: none;
+    padding: 0.3em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    font-size: 120%;
+    font-family: inherit;
+    color: white;
+    width: 67%;
+  }
+  button:hover {
+    background-color: #7c7c7c6b;
+  }
+  .temp {
+    margin: 0;
+  }
